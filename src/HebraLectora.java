@@ -9,7 +9,7 @@ public class HebraLectora implements Runnable {
     public void run() {
         for (int i = 0; i <= 100; i++) {
             int valorLeido = variable.get();
-            System.out.println("[GET] : "+ valorLeido);
+            System.out.println("[GET] : " + valorLeido);
         }
     }
 }
